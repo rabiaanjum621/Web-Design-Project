@@ -59,8 +59,8 @@ list-style: none;
 margin: 0 8px;
 }
 .navbar .menu a{
-font-size: 18px;
-font-weight: 500;
+font-size: 24px;
+font-weight: bolder;
 color: #0E2431;
 padding: 6px 0;
 transition: all 0.4s ease;
@@ -112,7 +112,6 @@ color: #fff;
     background: url("../images/background.jpg") no-repeat;
     background-size: 100px 100px;
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
   }
@@ -303,4 +302,52 @@ section .button button:hover{
 .skills-details .boxes .per{
  font-size: 60px;
  color: #4070f4;
+}
+
+
+/* My Work CSS */
+.services .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services .boxes .box{
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover{
+  background: #4070f4;
+  color: #fff;
+}
+.services .boxes .box .icon{
+  height: 50px;
+  width: 50px;
+  background: #4070f4;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+.boxes .box:hover .icon{
+  background-color: #fff;
+  color: #4070f4;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #0E2431;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  background-color: #fff;
+  color: #4070f4;
 }
