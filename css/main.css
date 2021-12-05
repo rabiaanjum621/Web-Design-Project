@@ -161,6 +161,11 @@ color: #fff;
   margin: 40px auto;
   font-family: 'Poppins', sans-serif;
 }
+
+h6 .hidden{
+  display: none;
+}
+
 .about .about-details{
   display: flex;
   justify-content: space-between;
