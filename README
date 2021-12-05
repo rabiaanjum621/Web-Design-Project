@@ -1,0 +1,22 @@
+# web-design-project
+This repository is created to develop a portfolio project for a web design class course.
+
+Name: Rabia Anjum
+
+1.	Briefly explain how design principles such as proximity, contrast, typography, etc. are considered in your website’s design.
+
+The website has been designed with an eye-pleasing and screen color and contrast that gives it an appealing appearance. 
+Based on the title or body content, appropriate fonts have been employed.
+
+On the website, there is a nice amount of proximity between elements. Images and text have been placed in close proximity to one another, which is necessary for good closeness.
+
+2.	Briefly explain what strategy or strategies were used to improve your website’s accessibility compliance.
+
+The following are some of the accessibility features that have been built into the website.
+The language of the Web page has been declared using the lang property.
+For the photos, an appropriate alt value was applied.
+
+3.	Briefly explain what search engine optimization strategy or strategies were used in your website.
+
+Under the meta tag, appropriate and most revelant keywords and descriptions have been applied.
+To increase SEO, the headings and body have been correctly employed.
